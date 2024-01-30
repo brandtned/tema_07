@@ -1,0 +1,16 @@
+.categorylist a {
+    text-decoration: none;
+    padding: 2em;
+    color: white;
+    background-color: var(--cat-background-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--text-decoration-color);
+    -webkit-text-decoration-color: var(--text-decoration-color);
+    border-radius: 5px;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
