@@ -120,6 +120,10 @@ nav {
     gap: 5px;
     margin-left: 20px;
 }
+/* Discount box*/
+.offer {
+position: absolute;
+}
 
 /* Footer */
 .footer1{

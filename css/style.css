@@ -149,6 +149,15 @@ ul {
     text-align: center;
 }
 
+.product:hover{
+transform: scale(1.04);
+}
+
+.sold_out{
+    opacity: 0.5;
+}
+
+
 /* Angiver produktbilledet efter størrelse */
 .product img {
     max-width: 100%;
@@ -185,7 +194,6 @@ ul {
 /* Border rundt om varens mærke på det enkeltes produkts side */
 .badge{
     font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
-    background-color:black; /* Orange farve for mærke */
     color:white;
     padding: 5px;
     border: 0.5px solid;
@@ -203,10 +211,66 @@ ul {
 
 /* Viser det besparede rabat i procent */
 .offer {
-    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
-    color: red; /* Rød farve for tilbud */
-    margin-top: 5px;
+        padding: 10px 20px;
+        background-color: red; /* Rød farve for knappen */
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-left: 130px;
+        margin-top: 255px;
+        cursor: pointer;
+        font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.offer_produktside {
+    padding: 3px 7px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    cursor: pointer;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxfarve_rød{
+    background-color: red; /* Rød farve for knappen */
+    width: 40px;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: -5px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxfarve_sort{
+    background-color: black; /* Sort farve for knappen */
+    width: 50px;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    padding: 5px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sold_out_box {
+    padding: 10px 20px;
+    background-color: lightgrey; /* Rød farve for knappen */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: -110px;
+    bottom: -47px;
+    cursor: pointer;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
+    position: relative;
+}
+
 
 /* Knap hvor kunden kan trykke sig ind på varen */
 .product button {
@@ -216,4 +280,5 @@ ul {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 1;
 }
