@@ -124,9 +124,15 @@ nav {
 .offer {
 position: absolute;
 }
+/* Discount box til varer der også er udsolgt*/
+.offer_soldout {
+    position: absolute;
+    }
 
 /* Footer */
 .footer1{
+    bottom: 10px;
+    margin-top: 10px;
     display: grid;
     grid-row: 4/4;
     grid-column: 1/4;
@@ -134,6 +140,8 @@ position: absolute;
     }
 
 .footer2{
+    bottom: 10px;
+    margin-top: 10px;
     display: grid;
     grid-row: 4/3;
     grid-column: 2/4;
@@ -141,6 +149,8 @@ position: absolute;
     }
 
 .footer3{
+    bottom: 10px;
+    margin-top: 10px;
     display: grid;
     grid-row: 4/2;
     grid-column: 3/4;
@@ -148,6 +158,8 @@ position: absolute;
     }
 
 .footer4{
+    bottom: 10px;
+    margin-top: 10px;
     display: grid;
     grid-row: 4/1;
     grid-column: 4/4;

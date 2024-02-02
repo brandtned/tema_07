@@ -75,6 +75,7 @@ a{
     border-radius: 5px;
     padding: 30px;
     background-color: #E3E3E1;
+    margin-bottom: 20px;
 }
 
 /* Styling på index-sidens billede */
@@ -139,8 +140,8 @@ ul {
 
 /* Containeren rundt om det enkelte produkt */
 .product {
-    border: 0.5px solid #E3E3E1;
-    box-shadow: #E3E3E1;
+    border: 0.5px solid #f7f7f1;
+    box-shadow: #f8f8f6;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -220,6 +221,20 @@ transform: scale(1.04);
         margin-top: 255px;
         cursor: pointer;
         font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+        z-index: 1;
+}
+/* Viser det besparede rabat i procent hos de varer som også er udsolgt */
+.offer_soldout{
+    padding: 10px 20px;
+    background-color: red; /* Rød farve for knappen */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: 295px;
+    cursor: pointer;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1;
 }
 
 .offer_produktside {
